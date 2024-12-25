@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christhmas</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <header class="header__1">
+        <h1 class="h1__cla">Жаңа жылыңызбен!</h1>
+        <div id="content" class="content">
+            <a href=""></a>
+            <h1>Жаңа жылға қалған уақыт:</h1>
+            <div id="countdown" class="timer">
+                <div class="time-box">
+                    <span id="days">00</span>
+                    күн
+                </div>
+                <div class="time-box">
+                    <span id="hours">00</span>
+                    сағат
+                </div>
+                <div class="time-box">
+                    <span id="minutes">00</span>
+                    минут
+                </div>
+                <div class="time-box">
+                    <span id="seconds">00</span>
+                    секунд
+                </div>
+            </div>
+        </div>
+        <video width="100%" class="top-video video-bg" autoplay loop>
+            <source width="100%" src="video/Snow.mp4" type="video/mp4">
+        </video>
+    </header>
+    <main>
+        <section class="section__1">
+            <h1 style="text-align: center;">Менің үйренгенім:</h1>
+            <div class="cardd">
+                <ul class="cards">
+                    <li class="cards__item">
+                        <article class="card">
+                            <div class="card__image">
+                                <img src="https://e7.pngegg.com/pngimages/147/317/png-clipart-html-computer-icons-web-development-bootstrap-world-wide-web-text-trademark.png" alt="Фон">
+                            </div>
+                            <div class="card__content">
+                                <h3 class="card__title">Менің үйренген уақытым</h3>
+                                <p class="card__descr">1 ай</p>
+                                <button class="card__btn">HTML</button>
+                            </div>
+                        </article>
+                    </li>
+                </ul>
+                <ul class="cards">
+                    <li class="cards__item">
+                        <article class="card">
+                            <div class="card__image">
+                                <img style="height: 100%; width: 50%;" src="https://gas-kvas.com/uploads/posts/2023-02/1675463198_gas-kvas-com-p-fonovii-risunok-v-css3-3.png" alt="Фон">
+                            </div>
+                            <div class="card__content">
+                                <h3 class="card__title">Менің үйренген уақытым</h3>
+                                <p class="card__descr">1 ай</p>
+                                <button class="card__btn">CSS</button>
+                            </div>
+                        </article>
+                    </li>
+                </ul>
+                <ul class="cards">
+                    <li class="cards__item">
+                        <article class="card">
+                            <div class="card__image">
+                                <img style="height: 100%; width: 60%;" src="https://www.manektech.com/storage/developer/1646734438.webp" alt="Фон">
+                            </div>
+                            <div class="card__content">
+                                <h3 class="card__title">Менің үйренген уақытым</h3>
+                                <p class="card__descr">2 ай</p>
+                                <button class="card__btn">JavaScript</button>
+                            </div>
+                        </article>
+                    </li>
+                </ul>
+            </div>
+            <section>
+                <h1 style="text-align: center;">Менің жасаған жобам:</h1>
+                <div class="cardd">
+                    <ul class="cards">
+                        <li class="cards__item">
+                            <article class="card" style="border-radius: 30px;">
+                                <div class="card__image">
+                                    <img style="width: 100%; border-radius: 10px;" src="suret/screen2.png" alt="Фон">
+                                </div>
+                                <div class="card__content">
+                                    <h3 class="card__title">Қыздар сағаты</h3>
+                                </div>
+                            </article>
+                        </li>
+                    </ul>
+                    <ul class="cards">
+                        <li class="cards__item">
+                            <article class="card" style="border-radius: 30px;">
+                                <div class="card__image">
+                                    <img style="border-radius: 10px;" style="height: 100%; width: 100%;" src="suret/screen3.png" alt="Фон">
+                                </div>
+                                <div class="card__content">
+                                    <h3 class="card__title">Еркектер сағаты</h3>
+                                </div>
+                            </article>
+                        </li>
+                    </ul>
+                    <ul class="cards">
+                        <li class="cards__item">
+                            <article class="card" style="border-radius: 30px;">
+                                <div class="card__image">
+                                    <img style="height: 79%; width: 100%; border-radius: 10px;" src="suret/screen4.png" alt="Фон">
+                                </div>
+                                <div class="card__content">
+                                    <h3 class="card__title">Заказ беру бөлімі</h3>
+                                </div>
+                            </article>
+                        </li>
+                    </ul>
+                </div>
+                <a style="text-align: center;" href="https://sanzhik11.github.io/Kurs-Project/"><h3>Сайтқа кіру үшін үстін бас</h3></a></h3>
+            </section>
+        </section>
+    </main>
+    <footer class="footer__sale">
+        <div class="santase">
+            <a href="">
+                <img style="border-radius: 20px;" width="87%" src="suret/santase.jpg" alt="suret">
+            </a>
+        </div>
+        <div class="container">
+            <div class="form-section">
+                <h3>Жеңілдікті алу үшін поштаңызды енгізіңіз:</h3>
+                <input type="text" id="email" placeholder="E-mail енгізіңіз">
+                <button onclick="submitEmail()">Жіберу</button>
+            </div>
+            <div class="promo-section">
+                <h4>Жаңа жылдық жеңілдік</h4>
+                <p>Барлық тауарларға -30%</p>
+                <img  width="40%" style="border-radius: 15px;" src="https://avatars.mds.yandex.net/i?id=ad0188a8d2cf6c5a57a7bc40d1324fdf_l-5220584-images-thumbs&n=13" alt="Discount Banner">
+            </div>
+        </div>
+    </footer>
+    <a href="#content" id="silteme" class="top-btn">
+        <img width="30px" height="30px" src="https://cdn-icons-png.flaticon.com/512/4476/4476896.png" alt="">
+    </a>
+    <script src="js/script.js"></script>
+</body>
+</html>
